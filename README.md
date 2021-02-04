@@ -1,0 +1,1 @@
+Promulgator is a go project generator.
