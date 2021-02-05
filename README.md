@@ -1,1 +1,1 @@
-Promulgator is a go project generator.
+Promulgate is a go project generator for my own personal use.
