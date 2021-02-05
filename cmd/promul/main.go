@@ -1,10 +1,10 @@
-package promul
+package main
 
 import (
 	"fmt"
   "os"
   
-  "github.com/nathanielwheeler/promulgator/pkg/generate"
+  "promulgate/pkg/generate"
 )
 
 func main() {
@@ -15,5 +15,11 @@ func main() {
 }
 
 func run() error {
-	generate.
+  p := generate.Project{
+    Name: "test",
+    Template: "default",
+  }
+
+  err := p.Generate()
+  return err
 }

@@ -1,3 +1,3 @@
-module github.com/nathanielwheeler/promulgator
+module promulgate
 
 go 1.15
