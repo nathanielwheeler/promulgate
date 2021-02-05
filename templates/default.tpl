@@ -1,5 +1,13 @@
 {{define "root"}}
-{{dir "cmd"}}
+
 {{dir "pkg"}}
 {{license "mit"}}
+
+{{cmdname}}
+{{template "cmdname" .}}
+
+{{end}}
+
+{{define "cmdname"}}
+
 {{end}}
